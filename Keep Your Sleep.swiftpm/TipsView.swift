@@ -8,7 +8,7 @@ class ViewModel: ObservableObject {
         isLoading = true // Set isLoading to true when fetching starts
         
         
-        let apiKey = "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"
+        let apiKey = "api-key"
         let url = URL(string: "https://api.openai.com/v1/chat/completions")!
         
         var request = URLRequest(url: url)
